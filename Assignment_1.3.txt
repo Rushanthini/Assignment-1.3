@@ -1,0 +1,90 @@
+1. pwd
+
+Description: Prints the full pathname of the current working directory.
+Example:pwd
+Print the name of the current working directory.
+
+2. vi
+
+Description: It is a visual text editor. If you want to edit a file you can use this command along with the filename which needs to be edited.
+Example: vi Book
+                The screen will clear and the text of your file will appear on the screen. if the filename ie Book is not avaiable, vi will start you in a new file and
+                you tell it to save your work,it will use the filename that you specified. 
+
+3. touch
+
+Description: It is the easiest way to create new, empty files. It is also used to change the timestamps on existing files and directories.
+Example: touch Book1
+                Creates a new empty file names Book1.
+
+4. mkdir
+
+Description: Creates a new directory if the specified directory doesnt already exist.
+Example: mkdir myDir
+               Creates a new directory called myDir whose parent is the current directory.
+
+5. rm
+
+Description: Removes the files or directories specified.
+Example: rm myDir
+                Removes the directory specified as myDir.
+
+6. ls
+
+Description: It is used to list files and directories. By default, it will list the content of the current directory.
+Example: ls
+                lists all the files and directories of the current directory.
+
+7. echo
+
+Description: It displays a line of text.
+Example: echo Hello
+                Displays Hello.
+
+8. cat
+
+Description: It is used to concatenate two or more files.
+Example: cat file1  file2
+                file1 and file2 contents are combined into single file in the file name file1.
+
+9. who
+
+Description: Displays all the information about who logged on to the system.
+Example: who 
+                Displays all the details of the person who logged in to the system. 
+
+10. cd
+
+Description: Changes the directory to the specified directory.
+Example: cd myDir1
+                Changes the current working directory into the specified directory myDir1.
+
+11. date
+
+Description: Prints the system's time and date information.
+Example: date
+                Date with no options used to display the system date and time.
+
+12. cal
+
+Description: Displays the calender in the command line.
+Example: cal
+                Displays the calender for this month.
+
+13. mv
+
+Description: Move or rename files.
+Example: mv Book Book1
+                Moves the Book file to the destination file name Book1.
+
+14. cp
+
+Description: It is used to copy files and directories.
+Example: cp book book1
+                Copied the conents of the file book to the file book1.
+
+15. which
+
+Description: Locates and displays the pathname of the executable file associated with a given command.
+Example: which sh 
+                Located the pathname of the file which would be run if the sh command were executed.
